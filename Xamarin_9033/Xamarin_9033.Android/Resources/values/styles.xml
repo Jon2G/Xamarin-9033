@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <!--Color accent remains pink!-->
+  <color name="colorAccent">#0277bd</color>
+
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@android:color/transparent</item>
+    <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+    <item name="colorSecondary">@color/colorSecondary</item>
+    <!--Color accent remains pink!-->
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="colorOnSecondary">@color/colorOnSecondary</item>
+    <item name="colorOnBackground">@color/colorOnBackground</item>
+    <item name="colorButtonNormal">@color/colorSecondary</item>
+    <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+    <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+    <item name="isLightTheme">@bool/is_light_theme</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:windowLightStatusBar">@bool/is_light_theme</item>
+    <item name="android:windowTranslucentStatus">false</item>
+    <item name="android:windowTranslucentNavigation">true</item>
+    <item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item>
+    <item name="android:timePickerDialogTheme">@style/AppCompatDialogStyle</item>
+    <item name="colorControlActivated">@color/colorAccent</item>
+    <item name="android:selectableItemBackgroundBorderless">@color/colorSecondary</item>
+    <item name="colorControlHighlight">@color/colorAccent</item>
+  </style>
+
+
+  <style name="AppCompatDialogStyle">
+    <!--Color accent remains pink!-->
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:timePickerMode">clock</item>
+    <item name="android:headerBackground">@color/colorPrimary</item>
+
+    <item name="android:textColorPrimaryInverse">@android:color/white</item>
+    <item name="android:colorControlActivated">@color/colorPrimary</item>
+
+    <item name="android:weekNumberColor">@color/colorOnBackground</item>
+    <item name="android:yearListSelectorColor">@color/colorPrimary</item>
+    <item name="android:dayOfWeekBackground">@color/colorOnBackground</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:backgroundDimEnabled">true</item>
+
+    <item name="android:calendarTextColor">@color/colorTextPrimary</item>
+    <item name="android:numbersTextColor">@color/colorTextPrimary</item>
+    <item name="android:numbersSelectorColor">@color/colorAccent</item>
+    <item name="android:numbersBackgroundColor">@color/colorOnSecondary</item>
+  </style>
+
+</resources>
